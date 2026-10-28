@@ -1,0 +1,6 @@
+26103fb 2026-10-28T19:54:07+08:00 feat: add Designer calculator layout and project structure
+95dfba1 2026-10-28T19:54:43+08:00 feat: implement decimal entry and sequential arithmetic state machine
+f1b1202 2026-10-28T19:55:46+08:00 feat: unify mouse and keyboard dispatch and style calculator
+53bcb0f 2026-10-28T19:56:55+08:00 test: verify arithmetic keyboard focus and mixed mouse input
+724b33d 2026-10-28T20:06:37+08:00 fix: preserve negative zero for negative fractional input with regression test
+2a28a92 2026-10-28T20:13:09+08:00 docs: add reproducible runtime demo and verified calculator screenshots
