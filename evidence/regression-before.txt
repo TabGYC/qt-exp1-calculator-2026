@@ -1,0 +1,10 @@
+********* Start testing of CalculatorTest *********
+Config: Using QtTest library 5.15.3, Qt 5.15.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.3.0), ubuntu 22.04
+PASS   : CalculatorTest::initTestCase()
+FAIL!  : CalculatorTest::negativeFraction() Compared values are not the same
+   Actual   (e.display())   : "1.5"
+   Expected (QString("0.5")): "0.5"
+   Loc: [../test_calculator.cpp(46)]
+PASS   : CalculatorTest::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of CalculatorTest *********

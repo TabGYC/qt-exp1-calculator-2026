@@ -40,6 +40,11 @@ private slots:
         e.input("C"); e.input("9"); e.input("-"); e.input("2"); e.input("=");
         QCOMPARE(e.display(), QString("7"));
     }
+    void negativeFraction() {
+        CalculatorEngine e;
+        for (QString t : {"SIGN", ".", "5", "+", "1", "="}) e.input(t);
+        QCOMPARE(e.display(), QString("0.5"));
+    }
     void keyboardMouseAndScreenshots() {
         CalculatorWindow w; w.show(); QTest::qWait(80);
         auto click = [&](const char *name) { QTest::mouseClick(w.findChild<QPushButton *>(name), Qt::LeftButton); };

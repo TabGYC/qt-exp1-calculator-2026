@@ -72,7 +72,7 @@ void CalculatorEngine::input(const QString &token) {
             entry = "0"; currentState = State::InputSecond;
         }
         if (entry.startsWith('-')) entry.remove(0, 1);
-        else if (entry != "0") entry.prepend('-');
+        else entry.prepend('-'); // 保留 -0，允许随后输入 -0.5。
         if (currentState == State::Result) { accumulator = entry.toDouble(); history.clear(); }
     }
 }

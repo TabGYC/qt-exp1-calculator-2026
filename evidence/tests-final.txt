@@ -1,0 +1,24 @@
+********* Start testing of CalculatorTest *********
+Config: Using QtTest library 5.15.3, Qt 5.15.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 11.3.0), ubuntu 22.04
+PASS   : CalculatorTest::initTestCase()
+PASS   : CalculatorTest::arithmetic(decimal)
+PASS   : CalculatorTest::arithmetic(subtract)
+PASS   : CalculatorTest::arithmetic(multiply)
+PASS   : CalculatorTest::arithmetic(divide)
+PASS   : CalculatorTest::arithmetic(duplicate-dot)
+PASS   : CalculatorTest::arithmetic(operator-replacement)
+PASS   : CalculatorTest::arithmetic(divide-zero)
+PASS   : CalculatorTest::arithmetic(recover-error)
+PASS   : CalculatorTest::arithmetic(new-after-result)
+PASS   : CalculatorTest::arithmetic(continue-result)
+PASS   : CalculatorTest::arithmetic(sequential)
+PASS   : CalculatorTest::arithmetic(leading-dot)
+PASS   : CalculatorTest::arithmetic(equals-pending)
+PASS   : CalculatorTest::arithmetic(small-divisor)
+PASS   : CalculatorTest::backspaceAndClear()
+PASS   : CalculatorTest::negativeFraction()
+QWARN  : CalculatorTest::keyboardMouseAndScreenshots() This plugin does not support propagateSizeHints()
+PASS   : CalculatorTest::keyboardMouseAndScreenshots()
+PASS   : CalculatorTest::cleanupTestCase()
+Totals: 19 passed, 0 failed, 0 skipped, 0 blacklisted, 121ms
+********* Finished testing of CalculatorTest *********
