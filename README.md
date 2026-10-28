@@ -45,3 +45,5 @@ QT_QPA_PLATFORM=offscreen ./demo /绝对路径/演示.mp4 /绝对路径/ffmpeg /
 演示保留真实运行时间和字幕，文件读写使用与菜单共用的接口。
 
 本实验采用即时连续运算，2 + 3 * 4 = 20；课程指定 Qt 6.9.2 尚需在对应版本复核。
+
+GitHub 仓库现为公开。报告的 GitHub 日志已改为提交历史网页截图，原图保存在 `evidence/github-commits.jpg`。
